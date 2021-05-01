@@ -1,0 +1,187 @@
+/* Цвет основного текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Вторичный цвет футера текста #FFFFFF*/
+/* Цвет логотипа  #2196F3 ,#000000*/
+/* Акцент #2196F3 */
+/* Основной цвет фона #757575 */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет фона банер и футер #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --tiile-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --logo-color: #000000;
+  --contact-text-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+
+/*Header*/
+/*Logo*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo.part-one {
+  color: var(--accent-color);
+}
+.logo.part-two {
+  color: var(--logo-color);
+}
+.logo-partone:focus,
+.logo-parttwo:focus {
+  color: var(--accent-color);
+}
+
+/*Site nav*/
+.site-nav .link {
+  color: var(--tiile-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*contact*/
+.contact-header .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-footer .link {
+  color: var(--contact-text-footer-color);
+  line-height: 1.71;
+  text-decoration: none;
+}
+.contact-footer .link.mail {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-header .link:hover,
+.contact-header .link:focus {
+  color: var(--accent-color);
+}
+/*Main*/
+
+.banner {
+  background-color: var(--secondary-background-color);
+}
+.banner-title {
+  color: var(--primary-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title,
+.hide-banner {
+  color: var(--tiile-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/*particular qualities*/
+.qualities-list .title {
+  color: var(--tiile-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/*Team*/
+.section-team {
+  background-color: var(--third-background-color);
+}
+.team-list .title {
+  color: var(--tiile-text-color);
+  font-weight: 500;
+}
+.team-list .text,
+.team-list .title {
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+}
+
+/*buttun*/
+.buttun {
+  cursor: pointer;
+}
+.buttun.primary {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.buttun.secondary {
+  color: var(--tiile-text-color);
+  background-color: var(--third-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.buttun.secondary:hover,
+.buttun.secondary:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/*Portfolio*/
+.portfolio-list .title {
+  color: var(--tiile-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+/*footer*/
+footer {
+  background-color: var(--secondary-background-color);
+}
+.address {
+  font-style: normal;
+}
+.logo.part-three {
+  color: var(--primary-background-color);
+}
+.location {
+  color: var(--primary-background-color);
+  line-height: 1.71;
+}
