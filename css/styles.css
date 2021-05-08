@@ -35,7 +35,6 @@ ul {
 /*Logo*/
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -104,7 +103,6 @@ ul {
 .section-title,
 .hide-banner {
   color: var(--tiile-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -112,7 +110,6 @@ ul {
 /*particular qualities*/
 .qualities-list .title {
   color: var(--tiile-text-color);
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -139,7 +136,6 @@ ul {
 .buttun.primary {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -167,7 +163,6 @@ ul {
 /*Portfolio*/
 .portfolio-list .title {
   color: var(--tiile-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
