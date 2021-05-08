@@ -20,6 +20,7 @@
 }
 
 body {
+  margin: 0;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -27,12 +28,40 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/*========Reset==========*/
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*=======End Reset=======*/
+/*======Global class======*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+.title {
+  margin-bottom: 10px;
 }
 
 /*Header*/
 /*Logo*/
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--primary-text-color);
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -90,13 +119,14 @@ ul {
 
 .banner {
   background-color: var(--secondary-background-color);
+  text-align: center;
 }
 .banner-title {
+  margin-bottom: 30px;
   color: var(--primary-background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -108,14 +138,24 @@ ul {
   text-align: center;
 }
 /*particular qualities*/
+.section-qualities {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .qualities-list .title {
   color: var(--tiile-text-color);
   line-height: 1.14;
   text-transform: uppercase;
 }
-
+/*What are we doing*/
+.section {
+  padding-bottom: 94px;
+}
 /*Team*/
 .section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
   background-color: var(--third-background-color);
 }
 .team-list .title {
@@ -126,27 +166,35 @@ ul {
 .team-list .title {
   font-size: 16px;
   line-height: 1.19px;
-  text-align: center;
 }
 
 /*buttun*/
 .buttun {
   cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
 .buttun.primary {
+  display: inline-block;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
-  font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
+  text-align: center;
 }
 .buttun.secondary {
+  display: inline-block;
   color: var(--tiile-text-color);
   background-color: var(--third-background-color);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.63;
+  padding: 6px 22px;
+  min-width: 73px;
+  min-height: 38px;
   text-align: center;
 }
 .buttun.primary:hover,
