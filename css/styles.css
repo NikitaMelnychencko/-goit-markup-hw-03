@@ -296,7 +296,6 @@ p {
   margin-right: 30px;
   margin-bottom: 30px;
   background: var(--primary-background-color);
-  border: 1px solid #eeeeee;
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
@@ -315,6 +314,12 @@ p {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
 }
 .portfolio-list .text {
   padding-left: 24px;
@@ -322,6 +327,15 @@ p {
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
 }
 /*======== END Main===========*/
 /*========Footer==============*/
