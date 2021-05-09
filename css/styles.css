@@ -297,7 +297,6 @@ p {
   margin-bottom: 30px;
   background: var(--primary-background-color);
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
